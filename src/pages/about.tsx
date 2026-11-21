@@ -19,14 +19,6 @@ import OSButton from 'components/OSButton'
 const ProductCount = () => <span>{PRODUCT_COUNT}+</span>
 const CustomerCount = () => <span>{CUSTOMER_COUNT.toLocaleString()}+</span>
 
-const HappyHog = () => (
-    <img
-        src="https://res.cloudinary.com/dmukukwp6/image/upload/happy_hog_ebc59e4658.png"
-        alt="happy hog"
-        className="float-right max-w-[400px] max-h-48 -mt-2 -mr-2"
-    />
-)
-
 // MDX components for MDXProvider
 const mdxComponents = {
     ...shortcodes, // Include global MDX components first
@@ -36,7 +28,6 @@ const mdxComponents = {
     TLDR,
     LottieAnimation,
     DifferentHighlights,
-    HappyHog,
     Letterhead,
     CloudinaryImage,
     ProductCount,
