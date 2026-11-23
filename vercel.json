@@ -7215,10 +7215,6 @@
             "destination": "/services"
         },
         {
-            "source": "/posthug",
-            "destination": "/"
-        },
-        {
             "source": "/docs/session-replay/start-here:ext(\\.md)?",
             "destination": "/docs/session-replay:ext?"
         },
